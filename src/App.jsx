@@ -7,12 +7,13 @@ function App() {
   let [count, setCount] = useState(0);
 
   useEffect(() => {
-      (count === 10) && alert('idk what to do with useEffect, so here is an alert');
+      (count === 10) && alert('idk what to do with useEffect, so here is an alert')
       console.log("AMOGUS");
   }, [count])
 
   let countUp = () => {setCount(count+1)}
   let countDown = () => {setCount(count-1)}
+
 
   return(
     <div>
